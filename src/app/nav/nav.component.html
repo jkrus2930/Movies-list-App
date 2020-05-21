@@ -1,0 +1,26 @@
+<!-- header start -->
+<header class="header_area clearfix">
+  <div class="container-fluid h-100">
+    <div class="row h-100">
+      <!-- Menu Area Start -->
+      <div class="col-12 h-100">
+        <div class="menu_area h-100">
+
+          <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <span class="navbar-brand mb-0 h1">MOVIE LIST - APP</span>
+            <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div [collapse]="isCollapsed" class="navbar-collapse">
+              <a class="nav-link active text-white" [routerLink]="['/movies']">Movies</a>
+              <a class="nav-item nav-link active text-white" [routerLink]="['/list']">
+                List
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Header end -->

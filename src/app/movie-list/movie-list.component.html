@@ -1,0 +1,13 @@
+<div class="mb-3">
+  <h3>Movie list</h3>
+  <div>
+    <span></span>
+  </div>
+</div>
+
+<div class="row card-deck">
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 mb-5" *ngFor="let movie of movies">
+    <app-movie-card [movie]="movie" (reloadMovies)="reloadMovies()"></app-movie-card>
+  </div>
+
+</div>

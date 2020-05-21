@@ -1,0 +1,15 @@
+<div class="card h-100">
+  <a href="javascript:void(0);" [routerLink]="['/movie-detail/', movie.id]"><img class="card-img-top"
+      src='https://image.tmdb.org/t/p/w250_and_h141_bestv2{{movie.poster_path}}' alt="{{movie.title}}"></a>
+  <div class="card-body">
+    <h5><b>{{ movie.title }}</b></h5>
+    <div class="overview">
+      <span>{{movie.overview | slice:0:100}} <a href="javascript:void(0);"
+          [routerLink]="['/movie-detail/', movie.id]">...read more</a></span>
+    </div>
+  </div>
+  <div class="card-footer text-center">
+    <a class="float-left" href="javascript:void(0);" [routerLink]="['/movie-detail/', movie.id]">View details</a>
+    <a class="float-right" href="javascript:void(0);" (click)="deleteMovieFromList(movie.id);">Delete movie</a>
+  </div>
+</div>

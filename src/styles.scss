@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+@import '../node_modules/alertifyjs/build/css/alertify.css';
+@import "styles.css";
+
+
+// card layout for moviedetail card
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+@media (max-width:360px) {
+
+  .card-horizontal {
+    display: block;
+  }
+}

@@ -1,0 +1,140 @@
+/* ---------
+Base CSS Start
+------------ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #404551;
+  line-height: 1.2;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  font-weight: 700;
+  text-decoration: none;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  color: #4d4e50;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 0;
+  line-height: 1.9;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-150 {
+  margin-top: 150px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+
+.mr-100 {
+  margin-right: 100px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.ml-100 {
+  margin-left: 100px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  line-height: 60px;
+  background-color: #f5f5f5;
+}
